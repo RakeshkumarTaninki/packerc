@@ -10,7 +10,7 @@ variable "instance_type" {
 
 variable "ami_name" {
   type    = string
-  default = "assignment-4-image"
+  default = "assignment-4-image-{{timestamp}}"
 }
 
 variable "base_ami" {
