@@ -12,7 +12,7 @@ build {
       "sudo git clone https://github.com/RakeshkumarTaninki/packerc.git",
       "cd /var/packerc/",
       "sudo python3 -m pip install -r requirements.txt",
-      "get https://kojipkgs.fedoraproject.org/packages/sqlite/3.10.0/1.fc22/x86_64/sqlite-3.10.0-1.fc22.x86_64.rpm",
+      "sudo wget https://kojipkgs.fedoraproject.org/packages/sqlite/3.10.0/1.fc22/x86_64/sqlite-3.10.0-1.fc22.x86_64.rpm",
       "sudo yum install sqlite-3.10.0-1.fc22.x86_64.rpm -y"
     ]
   }
